@@ -1,0 +1,15 @@
+*.egg-info
+.tox
+.idea
+__pycache__
+.coverage
+.coverage.*
+htmlcov
+*.pyc
+build
+_build
+env
+dist
+.DS_Store
+.vscode
+.pytest_cache
