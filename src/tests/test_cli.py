@@ -92,6 +92,6 @@ class TestRoverCLI:
             "Rover4 Landing:10 10 X",
         ],
     )
-    def test_parse_landing_position(self, input):
+    def test_parse_invalid_landing_position(self, input):
         with pytest.raises(ValueError):
             parse_rover_landing_position(input)
